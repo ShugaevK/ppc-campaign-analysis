@@ -1,214 +1,214 @@
-# PPC Campaign Analysis Case Study
+# Анализ PPC-кампании: Полный кейс
 
-## 📋 Project Overview
+## 📋 Обзор проекта
 
-This repository contains a comprehensive analysis of a PPC (Pay-Per-Click) advertising campaign with a focus on performance metrics calculation, audience segmentation, and actionable optimization recommendations.
+Этот репозиторий содержит комплексный анализ PPC-кампании с акцентом на расчёт ключевых метрик, сегментацию аудитории и практические рекомендации по оптимизации.
 
-### Key Objectives:
-- Calculate and analyze fundamental PPC metrics (CTR, CPC, CPA, ROAS)
-- Perform cohort segmentation based on user acquisition channels
-- Identify performance patterns and optimization opportunities
-- Provide data-driven recommendations for campaign improvement
-
----
-
-## 🎯 Campaign Brief
-
-**Campaign Duration:** January 2025 - December 2025  
-**Channels Analyzed:** Google Ads, Yandex Direct, VK Ads  
-**Target Audience:** B2B SaaS buyers, 25-45 years old, Moscow region  
-**Campaign Budget:** $50,000 USD  
+### Цели анализа:
+- Рассчитать и проанализировать основные метрики PPC (CTR, CPC, CPA, ROAS)
+- Выполнить когортный анализ по каналам привлечения
+- Выявить закономерности в производительности и найти точки оптимизации
+- Подготовить data-driven рекомендации для улучшения кампании
 
 ---
 
-## 📊 Dataset & Methodology
+## 🎯 Описание кампании
 
-### Data Sources:
-- Daily campaign performance from advertising platforms (impressions, clicks, conversions)
-- Customer data: acquisition source, registration date, subscription status
-- Revenue data: subscription plans, churn rate, lifetime value (LTV)
-
-### Analysis Approach:
-1. **Descriptive Analysis:** Campaign performance overview by channel and date
-2. **Cohort Analysis:** User behavior grouped by acquisition month and channel
-3. **Metrics Calculation:** CTR, CPC, CPA, ROAS, LTV, and payback period
-4. **Trend Analysis:** Performance changes over time
-5. **Segmentation:** High-value vs. low-value user cohorts
+**Период:** январь 2025 - декабрь 2025  
+**Анализируемые каналы:** Google Ads, Yandex Direct, VK Ads  
+**Целевая аудитория:** B2B SaaS покупатели, 25-45 лет, Московский регион  
+**Бюджет кампании:** $50 000  
 
 ---
 
-## 📈 Key Metrics Results
+## 📊 Данные и методология
 
-### Campaign Performance Summary
+### Источники данных:
+- Ежедневные метрики от рекламных платформ (импрессии, клики, расходы)
+- Данные о пользователях: источник привлечения, дата регистрации, статус подписки
+- Финансовые данные: тарифы подписок, churn rate, LTV (lifetime value)
 
-| Metric | Value | Interpretation |
-|--------|-------|----------------|
-| **Total Impressions** | 450,000 | Reach across all channels |
-| **Total Clicks** | 12,150 | Overall engagement |
-| **Overall CTR** | 2.7% | Within industry average (2-3%) |
-| **Total Conversions** | 485 | Sign-ups from paid traffic |
-| **Conversion Rate** | 3.99% | Strong conversion performance |
-| **Total Spend** | $50,000 | Budget utilization |
-| **Average CPC** | $4.11 | Cost per click across channels |
-| **Average CPA** | $103.09 | Cost per acquisition |
-| **Average Order Value (AOV)** | $2,400 | Avg annual subscription |
-| **ROAS (Return on Ad Spend)** | 11.6x | $116 revenue per $1 spent |
-
-### Channel Breakdown
-
-| Channel | Impressions | Clicks | CTR | CPC | Conversions | CPA | ROAS |
-|---------|------------|--------|-----|-----|-------------|-----|------|
-| **Google Ads** | 250,000 | 7,500 | 3.0% | $3.80 | 320 | $95.31 | 13.2x |
-| **Yandex Direct** | 150,000 | 3,600 | 2.4% | $4.50 | 110 | $136.36 | 8.8x |
-| **VK Ads** | 50,000 | 1,050 | 2.1% | $5.20 | 55 | $151.82 | 6.3x |
-
-**Insight:** Google Ads is the most efficient channel (highest ROAS, lowest CPA). VK Ads shows potential but needs optimization.
+### Методология анализа:
+1. **Дескриптивный анализ:** обзор производительности по каналам и датам
+2. **Когортный анализ:** поведение пользователей по месяцам и каналам привлечения
+3. **Расчёт метрик:** CTR, CPC, CPA, ROAS, LTV, период окупаемости
+4. **Тренд-анализ:** изменение производительности во времени
+5. **Сегментация:** выделение high-value и low-value когорт
 
 ---
 
-## 👥 Cohort Analysis Results
+## 📈 Результаты ключевых метрик
 
-### Monthly Cohort Performance
+### Итоги кампании
 
-| Cohort (Acq Month) | Users | Month 1 Retention | Month 3 Retention | LTV | Payback Period |
-|--------------------|-------|-------------------|-------------------|-----|----------------|
-| **January** | 45 | 91% | 78% | $2,850 | 1.3 months |
-| **February** | 62 | 88% | 72% | $2,640 | 1.5 months |
-| **March** | 58 | 90% | 75% | $2,760 | 1.4 months |
-| **April-June (avg)** | 280 | 87% | 68% | $2,400 | 1.6 months |
-| **July-September** | 200 | 84% | 61% | $2,100 | 1.9 months |
-| **October-December** | 160 | 78% | 52% | $1,680 | 2.4 months |
+| Метрика | Значение | Интерпретация |
+|---------|----------|---------------|
+| **Всего импрессий** | 450 000 | Охват всех каналов |
+| **Всего кликов** | 12 150 | Общая вовлечённость |
+| **CTR** | 2,7% | В пределах нормы (2-3%) для B2B |
+| **Конверсии** | 485 | Регистрации из платного трафика |
+| **Коэффициент конверсии** | 3,99% | Хороший результат для B2B SaaS |
+| **Всего потрачено** | $50 000 | Использование бюджета |
+| **Средний CPC** | $4,11 | Цена за клик |
+| **Средний CPA** | $103,09 | Цена за одного клиента |
+| **Средний AOV** | $2 400 | Средняя годовая подписка |
+| **ROAS** | 11,6x | $116 дохода на $1 расходов |
 
-**Key Finding:** Earlier cohorts show higher retention and LTV. Q4 users acquired later have higher churn rates.
+### Разбор по каналам
 
-### Channel Cohort Comparison
+| Канал | Импрессии | Клики | CTR | CPC | Конверсии | CPA | ROAS |
+|-------|-----------|-------|-----|-----|-----------|-----|------|
+| **Google Ads** | 250 000 | 7 500 | 3,0% | $3,80 | 320 | $95,31 | 13,2x |
+| **Yandex Direct** | 150 000 | 3 600 | 2,4% | $4,50 | 110 | $136,36 | 8,8x |
+| **VK Ads** | 50 000 | 1 050 | 2,1% | $5,20 | 55 | $151,82 | 6,3x |
 
-| Channel | Avg Retention (M3) | Avg LTV | User Quality Score |
-|---------|-------------------|---------|--------------------|
-| Google Ads | 74% | $2,750 | 8.5/10 |
-| Yandex Direct | 68% | $2,350 | 7.2/10 |
-| VK Ads | 62% | $2,100 | 6.8/10 |
-
----
-
-## 💡 Key Insights & Findings
-
-### Positive Findings:
-1. **Strong ROAS:** 11.6x overall ROAS indicates highly profitable ad spend
-2. **Good Conversion Rate:** 3.99% conversion rate is above B2B SaaS average (2-3%)
-3. **Consistent Performance:** All channels deliver positive ROI
-4. **High-Value Users:** Early cohorts (Jan-Mar) show strong LTV of $2,650+
-5. **Efficient Payback:** Average 1.7-month payback period enables reinvestment
-
-### Challenges Identified:
-1. **Seasonal Decline:** Q4 user quality drops (lower retention, higher churn)
-2. **Channel Quality Disparity:** VK Ads CPA is 59% higher than Google Ads
-3. **Late-Stage Churn:** Users acquired in Q4 show only 52% M3 retention
-4. **CPC Escalation:** Yandex Direct CPC rising over time (+12% from Jan to Dec)
-5. **Channel Saturation:** CTR declining in Google Ads (3.2% Jan → 2.8% Dec)
+**Вывод:** Google Ads показывает лучшую эффективность (самый высокий ROAS и самый низкий CPA). VK Ads имеет потенциал, но требует оптимизации.
 
 ---
 
-## 🔧 Optimization Recommendations
+## 👥 Анализ когорт
 
-### Immediate Actions (Weeks 1-2):
-1. **Pause underperforming VK Ads campaigns** with CPA > $200
-   - Expected impact: +5-8% overall ROAS
-   - Action: Review creative quality and landing page experience
+### Производительность когорт по месяцам
 
-2. **Reallocate 30% of VK budget to Google Ads**
-   - Expected impact: -15-20% blended CPA
-   - Reason: Google Ads shows 2.1x better efficiency
+| Когорта (месяц) | Пользователи | Удержание M1 | Удержание M3 | LTV | Окупаемость |
+|-----------------|--------------|--------------|--------------|-----|-------------|
+| **Январь** | 45 | 91% | 78% | $2 850 | 1,3 мес |
+| **Февраль** | 62 | 88% | 72% | $2 640 | 1,5 мес |
+| **Март** | 58 | 90% | 75% | $2 760 | 1,4 мес |
+| **Апрель-Июнь** | 280 | 87% | 68% | $2 400 | 1,6 мес |
+| **Июль-Сентябрь** | 200 | 84% | 61% | $2 100 | 1,9 мес |
+| **Октябрь-Декабрь** | 160 | 78% | 52% | $1 680 | 2,4 мес |
 
-3. **Audit Q4 landing pages**
-   - High churn in late cohorts suggests UX/onboarding issues
-   - Test: Simplify onboarding, improve first-login experience
+**Ключевой вывод:** ранние когорты (Q1) показывают высокое удержание и LTV. Пользователи из Q4 имеют проблемы с retention.
 
-### Medium-Term Optimization (Months 2-3):
-4. **Implement audience segmentation in Google Ads**
-   - Target high-LTV profile (professionals, 30-45 age, decision-makers)
-   - Expected: +8-12% conversion rate on new audiences
+### Сравнение когорт по каналам
 
-5. **Run A/B tests on ad copy focusing on retention signals**
-   - Test messaging around "90%+ user retention," "enterprise support"
-   - Target early cohort messaging to match higher-LTV patterns
-
-6. **Yandex Direct optimization**
-   - Reduce bids on low-converting keywords (CPA > $150)
-   - Expected: +6-10% efficiency improvement
-
-### Strategic Initiatives (3-6 months):
-7. **Develop seasonal campaigns**
-   - Q4 challenges suggest need for different positioning (e.g., "year-end planning tool")
-   - Create 2-3 seasonal variations of landing pages
-
-8. **Implement early engagement program**
-   - 30-day post-signup nurture sequence
-   - Target: Increase M3 retention by 5-8%
-
-9. **Cohort-based retargeting**
-   - Reactivate at-risk users from Q4 cohorts before churn
-   - Budget: 10% of current ad spend
+| Канал | Удержание M3 | LTV | Оценка качества |
+|-------|--------------|-----|------------------|
+| Google Ads | 74% | $2 750 | 8,5/10 |
+| Yandex Direct | 68% | $2 350 | 7,2/10 |
+| VK Ads | 62% | $2 100 | 6,8/10 |
 
 ---
 
-## 📁 Project Files
+## 💡 Ключевые находки
+
+### Положительные результаты:
+1. **Высокий ROAS:** 11,6x указывает на очень прибыльные расходы
+2. **Хорошая конверсия:** 3,99% выше среднего для B2B (2-3%)
+3. **Стабильность:** все каналы приносят положительный ROI
+4. **High-value когорты:** пользователи из Q1-Q2 имеют LTV $2,650+
+5. **Быстрая окупаемость:** среднее время окупаемости 1,7 месяца
+
+### Выявленные проблемы:
+1. **Сезонный спад:** качество когорт в Q4 резко упало
+2. **Разница в эффективности каналов:** CPA в VK Ads на 59% выше, чем в Google
+3. **Churn в Q4:** пользователи из Q4 имеют только 52% retention за 3 месяца
+4. **Рост CPC:** в Yandex Direct CPC вырос на 12% за год
+5. **Снижение CTR:** CTR в Google Ads упал с 3,2% в январе до 2,8% в декабре
+
+---
+
+## 🔧 Рекомендации по оптимизации
+
+### Срочные действия (неделя 1-2):
+1. **Остановить неэффективные VK кампании** с CPA > $200
+   - Прогноз: улучшение ROAS на 5-8%
+   - Действие: проверить качество креативов и UX лендинга
+
+2. **Перенаправить 30% бюджета VK на Google Ads**
+   - Прогноз: снижение CPA на 15-20%
+   - Причина: Google Ads в 2,1 раза эффективнее
+
+3. **Аудит лендингов Q4**
+   - Высокий churn указывает на проблемы с onboarding
+   - Тестирование: упростить первый вход, улучшить первый опыт
+
+### Среднесрочная оптимизация (2-3 месяца):
+4. **Сегментация аудитории в Google Ads**
+   - Таргетировать high-LTV профиль (специалисты 30-45, decision-makers)
+   - Прогноз: +8-12% конверсия на новых сегментах
+
+5. **A/B тесты копирайта**
+   - Тестировать мессаджинг по retention: «90%+ retention у пользователей», «24/7 поддержка»
+   - Использовать успешные мессаджи от Q1 когорт
+
+6. **Оптимизация Yandex Direct**
+   - Снизить ставки на слабые ключи (CPA > $150)
+   - Прогноз: +6-10% эффективность
+
+### Стратегические инициативы (3-6 месяцев):
+7. **Сезонные кампании**
+   - Q4 требует другого позиционирования (например, «tool для планирования года»)
+   - Создать 2-3 вариации лендингов под сезоны
+
+8. **Программа раннего вовлечения**
+   - 30-дневный nurture сиквенс после регистрации
+   - Цель: +5-8% удержание на M3
+
+9. **Ретаргетинг по когортам**
+   - Реактивировать at-risk пользователей из Q4 перед churn
+   - Бюджет: 10% от текущих расходов
+
+---
+
+## 📁 Структура файлов проекта
 
 ```
 .
 ├── data/
-│   ├── campaign_data.csv          # Daily metrics by channel (impressions, clicks, spend)
-│   ├── conversion_data.csv        # User conversions and registration details
-│   └── revenue_data.csv           # Subscription data, churn, LTV calculations
+│   ├── campaign_data.csv          # Ежедневные метрики по каналам
+│   ├── conversion_data.csv        # Конверсии и регистрации
+│   └── revenue_data.csv           # Данные по подпискам и LTV
 ├── analysis/
-│   ├── metrics_calculation.py     # CTR, CPC, CPA, ROAS calculations
-│   ├── cohort_analysis.py         # Monthly cohort segmentation & retention
-│   └── channel_comparison.py      # Channel performance breakdown
+│   ├── metrics_calculation.py     # Расчёты CTR, CPC, CPA, ROAS
+│   ├── cohort_analysis.py         # Когортный анализ и retention
+│   └── channel_comparison.py      # Сравнение каналов
 ├── results/
-│   ├── campaign_summary.xlsx      # Executive summary dashboard
-│   ├── cohort_retention.xlsx      # Retention curves by cohort
-│   └── visualizations/            # Charts and graphs
+│   ├── campaign_summary.xlsx      # Dashboard с итогами
+│   ├── cohort_retention.xlsx      # Кривые удержания когорт
+│   └── visualizations/            # Графики и диаграммы
 │       ├── channel_roas.png
 │       ├── cohort_retention_curve.png
 │       └── cpa_trend.png
-└── README.md                       # This file
+└── README.md                       # Этот файл
 ```
 
 ---
 
-## 🛠 Tools & Technologies Used
+## 🛠 Используемые технологии
 
-- **Python 3.9+** - Data processing and analysis
-- **Pandas** - Data manipulation and cohort analysis
-- **NumPy** - Numerical calculations
-- **Matplotlib / Seaborn** - Data visualization
-- **Excel / Google Sheets** - Summary dashboards
-- **SQL** - Data querying from analytics platforms
-
----
-
-## 📌 Key Takeaways for Performance Marketers
-
-1. **Metric Mastery:** Understanding CTR, CPC, CPA, and ROAS is fundamental to campaign optimization
-2. **Cohort Thinking:** Segment users by acquisition source and time to identify quality differences
-3. **Channel Efficiency:** Not all traffic is equal—VK Ads costs 59% more per acquisition
-4. **Payback Period:** Quick payback (1.7 months) enables aggressive reinvestment and scaling
-5. **Early Indicators:** Retention trends in first 30 days predict long-term LTV
-6. **Data-Driven Decisions:** Use cohort data to inform budget allocation and creative strategy
+- **Python 3.9+** — обработка и анализ данных
+- **Pandas** — манипуляция данными и когортный анализ
+- **NumPy** — численные вычисления
+- **Matplotlib / Seaborn** — визуализация данных
+- **Excel / Google Sheets** — dashboard и отчёты
+- **SQL** — запросы к аналитическим платформам
 
 ---
 
-## 📞 Contact & Questions
+## 📌 Ключевые выводы для performance-маркетолога
 
-For questions about this analysis or methodology, feel free to open an issue or contact the author.
+1. **Владение метриками** — понимание CTR, CPC, CPA, ROAS критично для оптимизации
+2. **Когортное мышление** — сегментация по каналам и времени выявляет качество
+3. **Неравнозначность каналов** — VK Ads стоит на 59% дороже за клиента
+4. **Период окупаемости** — 1,7 мес позволяет агрессивно масштабировать
+5. **Ранние индикаторы** — retention в первые 30 дней предсказывает LTV
+6. **Data-driven решения** — используй когортные данные для бюджета и креативов
 
-**Performance Marketing Focus Areas:**
-- PPC Campaign Optimization
-- Cohort & Retention Analysis
-- ROAS Maximization
+---
+
+## 📞 Контакты и вопросы
+
+По вопросам анализа или методологии создавайте Issues или свяжитесь с автором.
+
+**Направления экспертизы:**
+- Оптимизация PPC кампаний
+- Когортный анализ и retention
+- Максимизация ROAS
 - Marketing Analytics
 
 ---
 
-**Last Updated:** January 2026  
-**Analysis Period:** Q1 2025 - Q4 2025
+**Последнее обновление:** январь 2026  
+**Период анализа:** Q1 2025 - Q4 2025
